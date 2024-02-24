@@ -1,0 +1,16 @@
+.container {
+  width: 300px;
+  height: 150px;
+  background: white;
+  padding: 10px;
+  border: 30px solid blue;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+body {
+  background-color: orange;
+  margin: 0;
+  font-size: 70px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

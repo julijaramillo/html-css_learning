@@ -1,0 +1,17 @@
+  section {
+padding-top: 200;
+}
+
+div{
+border: 1px solid;
+width: 200;
+height: 100;
+background-color: #09f;
+margin-top: -100px;
+box-shadow: 0 0 5px #000000dd
+}
+
+body {
+  background-color: rgb(127, 193, 174);
+
+}

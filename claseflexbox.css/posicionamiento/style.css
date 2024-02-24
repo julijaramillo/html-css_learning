@@ -1,0 +1,47 @@
+section {
+  border: 5px solid black;
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  padding: 20px;
+  border: 5px solid brown;
+  box-sizing: border-box;
+  overflow: auto;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 50%;
+}
+
+.container-sticky {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(43, 226, 61);
+  padding: 20px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 20%;
+  left: 10%;
+}
+
+.container-fixed {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 10px;
+}
+
+body {
+  background-color: rgb(127, 193, 174);
+
+}
